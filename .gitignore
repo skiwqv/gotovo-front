@@ -22,3 +22,13 @@ logs
 .env
 .env.*
 !.env.example
+
+# Cloudflare / Supabase CLI local state
+.wrangler
+supabase/.temp
+supabase/.branches
+
+# AI assistant / local tooling
+/CLAUDE.md
+/.claude/
+/design/
