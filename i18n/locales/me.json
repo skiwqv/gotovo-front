@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Gotovo — čišćenja apartmana pod kontrolom",
+    "description": "Čišćenja se sama kreiraju iz rezervacija sa Booking-a i Airbnb-a. Čistačica radi sa telefona po foto ček-listi, a vi vidite „gotovo“ prije dolaska gosta. Za upravnike apartmana u Crnoj Gori."
+  },
+  "nav": {
+    "home": "Gotovo — početna",
+    "how": "Kako funkcioniše",
+    "price": "Cijena",
+    "pilot": "Besplatni pilot",
+    "language": "Jezik"
+  },
+  "hero": {
+    "badge": "Za upravnike apartmana u Crnoj Gori",
+    "title": "Stan spreman za dolazak. Uvijek.",
+    "subtitle": "Čišćenja se sama pojavljuju u rasporedu prema rezervacijama sa Booking-a i Airbnb-a. Čistačica na telefonu vidi šta danas treba očistiti i šalje fotografije. Vi vidite „gotovo“ prije nego što gost stigne.",
+    "cta": "Želim besplatni pilot",
+    "how": "Kako funkcioniše →",
+    "note": "Besplatno do početka sezone 2027 · Bez instaliranja aplikacije"
+  },
+  "phone": {
+    "label": "Primjer ekrana čistačice: četiri čišćenja za danas, jedno gotovo",
+    "avatar": "M",
+    "date": "Subota, 10. jul",
+    "today": "Danas 4 čišćenja",
+    "progress": "{n} od 4 gotovo",
+    "done": {
+      "name": "Apartman „More“, Budva",
+      "status": "✓ Gotovo",
+      "photos": "{n} fotografija"
+    },
+    "progressCard": {
+      "name": "Studio kod Starog grada",
+      "status": "U toku · Milica",
+      "rooms": "{n} od 5 soba"
+    },
+    "alert": {
+      "name": "Apartman 4, Bečići",
+      "time": "Prijava za 3 sata",
+      "action": "Dodijeli",
+      "assigned": "Dodijeljeno · Ana"
+    },
+    "later": {
+      "name": "Vila, Petrovac",
+      "time": "Generalno čišćenje · Jovana",
+      "status": "od 16:00"
+    }
+  },
+  "pains": {
+    "eyebrow": "Poznato?",
+    "title": "Tri stvari koje kvare sezonu",
+    "messages": {
+      "title": "Svaki put ručno pišete čistačicama",
+      "text": "Nova rezervacija — nova poruka na Viberu, i nada da je neko pročitao."
+    },
+    "time": {
+      "title": "Odjava u 10:00, prijava u 14:00",
+      "text": "Četiri sata za čišćenje — a da niko nije došao saznate tek kad gost pozove."
+    },
+    "review": {
+      "title": "„Loše očišćeno“ u recenziji",
+      "text": "Niste vidjeli stan poslije čišćenja, a ocjena na Booking-u je već pala."
+    }
+  },
+  "how": {
+    "title": "Kako funkcioniše",
+    "calendars": {
+      "title": "Povezujete kalendare",
+      "text": "iCal linkovi iz Booking-a i Airbnb-a — pet minuta po stanu. Svaka rezervacija sama kreira čišćenje sa rokom između odjave i prijave."
+    },
+    "link": {
+      "title": "Čistačica otvara link",
+      "text": "Bez instaliranja i registracije: spisak stanova za danas, adrese, šifre, ček-lista po sobama."
+    },
+    "photo": {
+      "title": "Fotografija — i stan je „gotov“",
+      "text": "Zadatak se ne može zatvoriti bez fotografija. Vi i vlasnik odmah vidite da je stan spreman za dolazak."
+    }
+  },
+  "notService": {
+    "title": "Ovo nije servis čistačica",
+    "text": "Gotovo je alat za vaš sopstveni tim. Vi odlučujete ko čisti. Program pazi da se nijedno čišćenje ne izgubi i unaprijed upozorava ako niko nije dodijeljen na odjavu.",
+    "alert": "⚠ Upozorenje ako čišćenje nema izvršioca",
+    "workload": "Zauzetost svake čistačice za taj dan"
+  },
+  "features": {
+    "eyebrow": "Mogućnosti",
+    "title": "Sve za čišćenja na jednom mjestu",
+    "auto": {
+      "title": "Automatska čišćenja iz rezervacija",
+      "text": "Nova rezervacija na Booking-u ili Airbnb-u — i čišćenje je već u rasporedu, sa rokom između odjave i prijave."
+    },
+    "checklist": {
+      "title": "Foto ček-lista po sobama",
+      "text": "Kuhinja, kupatilo, spavaća soba, balkon. Bez fotografija se zadatak ne zatvara — rezultat vidite prije dolaska gosta."
+    },
+    "issues": {
+      "title": "Prijava problema",
+      "text": "Pokvarila se slavina ili nedostaje peškir — fotografija odmah stiže menadžeru i vlasniku."
+    },
+    "payouts": {
+      "title": "Plaćanje čistačica",
+      "text": "Po čišćenju ili po tipu stana. Mjesečni obračun se računa sam, bez rasprava."
+    },
+    "linen": {
+      "title": "Posteljina i potrošni materijal",
+      "text": "Koliko kompleta je na pranju, gdje ponestaje kapsula i šampona, šta treba dokupiti."
+    },
+    "languages": {
+      "title": "Na jeziku vašeg tima",
+      "text": "Crnogorski, ruski, engleski, ukrajinski i turski — svako vidi interfejs na svom jeziku."
+    }
+  },
+  "audience": {
+    "title": "Za koga",
+    "agencies": {
+      "who": "Upravnici i agencije",
+      "text": " koji vode stanove vlasnika na primorju."
+    },
+    "cleaning": {
+      "who": "Firme za čišćenje",
+      "text": " koje održavaju apartmane."
+    },
+    "owners": {
+      "who": "Vlasnici više stanova",
+      "text": " kojima je dosta dopisivanja na Viberu."
+    }
+  },
+  "price": {
+    "label": "Cijena",
+    "amount": "€2",
+    "per": "po stanu mjesečno",
+    "terms": "Minimum €10 mjesečno. Uz godišnje plaćanje — 2 mjeseca gratis.",
+    "free": "Prve agencije — besplatno do početka sezone 2027",
+    "calc": {
+      "label": "Koliko stanova imate",
+      "monthly": "€{amount} mjesečno",
+      "yearly": "ili €{amount} godišnje — 2 mjeseca gratis",
+      "minimum": "minimalna tarifa"
+    }
+  },
+  "pilot": {
+    "title": "Probajte besplatno u sezoni 2027",
+    "text": "Ostavite kontakt — javiću vam se lično i pomoći da povežete stanove i čistačice. Bez ikakvih obaveza.",
+    "name": "Ime",
+    "namePlaceholder": "Kako da vam se obraćamo",
+    "contact": "Viber, WhatsApp ili Telegram",
+    "contactPlaceholder": "+382 …",
+    "apartments": "Koliko stanova",
+    "city": "Grad",
+    "cities": {
+      "budva": "Budva",
+      "kotor": "Kotor",
+      "tivat": "Tivat",
+      "bar": "Bar",
+      "herceg-novi": "Herceg Novi",
+      "podgorica": "Podgorica",
+      "other": "Drugi"
+    },
+    "submit": "Želim besplatni pilot",
+    "sending": "Šaljemo…",
+    "successTitle": "Hvala! Zahtjev je poslat.",
+    "successText": "Javiću vam se u toku dana na kontakt koji ste ostavili.",
+    "errors": {
+      "name": "Upišite kako da vam se obraćamo",
+      "contact": "Upišite telefon ili Telegram nalog",
+      "apartments": "Izaberite broj stanova",
+      "city": "Izaberite grad",
+      "submit": "Slanje nije uspjelo. Pokušajte ponovo.",
+      "consent": "Potrebna je vaša saglasnost za obradu podataka"
+    },
+    "consent": "Dajem saglasnost za obradu mojih podataka radi kontakta o pilotu, u skladu sa {policy}.",
+    "consentPolicy": "Politikom privatnosti"
+  },
+  "footer": {
+    "made": "Napravljeno u Podgorici, Crna Gora",
+    "legal": "Dokumenti"
+  },
+  "legal": {
+    "eyebrow": "Dokumenti",
+    "back": "Na početnu",
+    "updated": "Ažurirano 28. oktobra 2026.",
+    "other": "Ostali dokumenti",
+    "missingName": "upisati vlasnika sajta",
+    "missingEmail": "upisati email"
+  }
+}

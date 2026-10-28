@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "Gotovo — holiday rental cleanings under control",
+    "description": "Cleanings are created automatically from Booking and Airbnb reservations. Cleaners work from their phone with a photo checklist, and you see “ready” before the guest arrives. For apartment managers in Montenegro."
+  },
+  "nav": {
+    "home": "Gotovo — home",
+    "how": "How it works",
+    "price": "Pricing",
+    "pilot": "Free pilot",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "For apartment managers in Montenegro",
+    "title": "Ready for check-in. Every time.",
+    "subtitle": "Cleanings appear on the schedule by themselves, based on Booking and Airbnb reservations. Your cleaner sees on their phone what to clean today and sends photos. You see “ready” before the guest arrives.",
+    "cta": "Get a free pilot",
+    "how": "How it works →",
+    "note": "Free until the 2027 season starts · No app to install"
+  },
+  "phone": {
+    "label": "Example of a cleaner's screen: four cleanings today, one done",
+    "avatar": "M",
+    "date": "Saturday, 10 July",
+    "today": "4 cleanings today",
+    "progress": "{n} of 4 done",
+    "done": {
+      "name": "Apartment “More”, Budva",
+      "status": "✓ Ready",
+      "photos": "{n} photos"
+    },
+    "progressCard": {
+      "name": "Studio by the Old Town",
+      "status": "In progress · Milica",
+      "rooms": "{n} of 5 rooms"
+    },
+    "alert": {
+      "name": "Apartment 4, Bečići",
+      "time": "Check-in in 3 hours",
+      "action": "Assign",
+      "assigned": "Assigned · Ana"
+    },
+    "later": {
+      "name": "Villa, Petrovac",
+      "time": "Deep clean · Jovana",
+      "status": "from 16:00"
+    }
+  },
+  "pains": {
+    "eyebrow": "Sound familiar?",
+    "title": "Three things that ruin the season",
+    "messages": {
+      "title": "You message cleaners by hand, every time",
+      "text": "New booking — new Viber message, and hoping someone actually read it."
+    },
+    "time": {
+      "title": "Check-out at 10:00, check-in at 14:00",
+      "text": "Four hours to clean — and you only find out nobody showed up when the guest calls."
+    },
+    "review": {
+      "title": "“Poorly cleaned” in a review",
+      "text": "You never saw the apartment after cleaning, and your Booking rating has already dropped."
+    }
+  },
+  "how": {
+    "title": "How it works",
+    "calendars": {
+      "title": "Connect your calendars",
+      "text": "iCal links from Booking and Airbnb — five minutes per apartment. Every booking creates a cleaning by itself, due between check-out and check-in."
+    },
+    "link": {
+      "title": "Your cleaner opens a link",
+      "text": "No install, no sign-up: today's apartments, addresses, door codes and a room-by-room checklist."
+    },
+    "photo": {
+      "title": "Photos — and it's “ready”",
+      "text": "A task can't be closed without photos. You and the owner see right away that the apartment is ready for check-in."
+    }
+  },
+  "notService": {
+    "title": "This is not a cleaning service",
+    "text": "Gotovo is a tool for your own team. You decide who cleans. The app makes sure no cleaning gets lost and warns you in advance if nobody is assigned to a check-out.",
+    "alert": "⚠ An alert when a cleaning has no one assigned",
+    "workload": "Each cleaner's workload for the day"
+  },
+  "features": {
+    "eyebrow": "Features",
+    "title": "Everything for cleanings in one place",
+    "auto": {
+      "title": "Cleanings from bookings",
+      "text": "A new booking on Booking or Airbnb — and the cleaning is already on the schedule, due between check-out and check-in."
+    },
+    "checklist": {
+      "title": "Room-by-room photo checklist",
+      "text": "Kitchen, bathroom, bedroom, balcony. No photos, no closing the task — you see the result before the guest arrives."
+    },
+    "issues": {
+      "title": "Issue reports",
+      "text": "A broken tap or a missing towel — the photo goes straight to the manager and the owner."
+    },
+    "payouts": {
+      "title": "Cleaner payouts",
+      "text": "Per cleaning or by apartment type. The monthly total adds up by itself — no arguments."
+    },
+    "linen": {
+      "title": "Linen and supplies",
+      "text": "How many sets are in the laundry, where capsules and shampoo are running low, what to restock."
+    },
+    "languages": {
+      "title": "In your team's language",
+      "text": "Montenegrin, Russian, English, Ukrainian and Turkish — everyone sees the interface in their own."
+    }
+  },
+  "audience": {
+    "title": "Who it's for",
+    "agencies": {
+      "who": "Managers and agencies",
+      "text": " running owners' apartments on the coast."
+    },
+    "cleaning": {
+      "who": "Cleaning companies",
+      "text": " that service holiday apartments."
+    },
+    "owners": {
+      "who": "Owners of several apartments",
+      "text": " who are tired of Viber back-and-forth."
+    }
+  },
+  "price": {
+    "label": "Pricing",
+    "amount": "€2",
+    "per": "per apartment per month",
+    "terms": "Minimum €10 per month. Pay yearly and get 2 months free.",
+    "free": "First agencies — free until the 2027 season starts",
+    "calc": {
+      "label": "How many apartments do you have",
+      "monthly": "€{amount} per month",
+      "yearly": "or €{amount} per year — 2 months free",
+      "minimum": "minimum plan"
+    }
+  },
+  "pilot": {
+    "title": "Try it free in the 2027 season",
+    "text": "Leave your contact — I'll reach out personally and help you connect your apartments and cleaners. No strings attached.",
+    "name": "Name",
+    "namePlaceholder": "How should we address you",
+    "contact": "Viber, WhatsApp or Telegram",
+    "contactPlaceholder": "+382 …",
+    "apartments": "Number of apartments",
+    "city": "City",
+    "cities": {
+      "budva": "Budva",
+      "kotor": "Kotor",
+      "tivat": "Tivat",
+      "bar": "Bar",
+      "herceg-novi": "Herceg Novi",
+      "podgorica": "Podgorica",
+      "other": "Other"
+    },
+    "submit": "Get a free pilot",
+    "sending": "Sending…",
+    "successTitle": "Thank you! Your request has been sent.",
+    "successText": "I'll get in touch within a day using the contact you left.",
+    "errors": {
+      "name": "Tell us how to address you",
+      "contact": "Enter a phone or Telegram username",
+      "apartments": "Choose the number of apartments",
+      "city": "Choose a city",
+      "submit": "Couldn't send. Please try again.",
+      "consent": "Please agree to the processing of your data"
+    },
+    "consent": "I agree to the processing of my data so you can contact me about the pilot, as described in the {policy}.",
+    "consentPolicy": "Privacy Policy"
+  },
+  "footer": {
+    "made": "Made in Podgorica, Montenegro",
+    "legal": "Documents"
+  },
+  "legal": {
+    "eyebrow": "Documents",
+    "back": "Back to home",
+    "updated": "Updated 28 October 2026",
+    "other": "Other documents",
+    "missingName": "add the site owner",
+    "missingEmail": "add an email"
+  }
+}
