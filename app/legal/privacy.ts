@@ -42,6 +42,7 @@ export const privacy: LegalDocSet = {
             list: [
               'Supabase — baza podataka u kojoj se čuvaju prijave;',
               'Cloudflare — hosting sajta i zaštita od napada (tehnički podaci zahtjeva, npr. IP adresa);',
+              'Telegram — obavještenje o novoj prijavi (ime, kontakt, broj stanova i grad) stiže nam u Telegram bot;',
               'Viber, WhatsApp ili Telegram — ako vam pišemo tamo, prepiska podliježe pravilima tog servisa.',
             ],
           },
@@ -51,6 +52,7 @@ export const privacy: LegalDocSet = {
         title: 'Prenos van Crne Gore',
         body: [
           'Serveri servisa Supabase i Cloudflare mogu biti van Crne Gore, uključujući EU i SAD. Ove kompanije obrađuju podatke po našem nalogu i primjenjuju standardne ugovorne klauzule i druge mjere zaštite predviđene za takve prenose.',
+          'Obavještenja o prijavama čuvaju se u Telegramu, na njegovim serverima van Crne Gore, i podliježu pravilima tog servisa.',
         ],
       },
       {
@@ -131,6 +133,7 @@ export const privacy: LegalDocSet = {
             list: [
               'Supabase — база данных, где хранятся заявки;',
               'Cloudflare — хостинг сайта и защита от атак (технические данные запросов, например IP-адрес);',
+              'Telegram — уведомление о новой заявке (имя, контакт, число квартир и город) приходит нам в Telegram-бот;',
               'Viber, WhatsApp или Telegram — если мы пишем вам туда, переписка регулируется правилами этого сервиса.',
             ],
           },
@@ -140,6 +143,7 @@ export const privacy: LegalDocSet = {
         title: 'Передача за пределы Черногории',
         body: [
           'Серверы Supabase и Cloudflare могут находиться за пределами Черногории, в том числе в ЕС и США. Эти компании обрабатывают данные по нашему поручению и применяют стандартные договорные условия и другие меры защиты, предусмотренные для таких передач.',
+          'Уведомления о заявках хранятся в Telegram, на его серверах за пределами Черногории, и регулируются правилами этого сервиса.',
         ],
       },
       {
@@ -220,6 +224,7 @@ export const privacy: LegalDocSet = {
             list: [
               'Supabase — the database where requests are stored;',
               'Cloudflare — website hosting and attack protection (technical request data such as IP address);',
+              'Telegram — a notification about a new request (name, contact, number of apartments and city) is sent to our Telegram bot;',
               'Viber, WhatsApp or Telegram — if we message you there, the conversation is subject to that service’s rules.',
             ],
           },
@@ -229,6 +234,7 @@ export const privacy: LegalDocSet = {
         title: 'Transfers outside Montenegro',
         body: [
           'Supabase and Cloudflare servers may be located outside Montenegro, including in the EU and the USA. These companies process data on our behalf and apply standard contractual clauses and other safeguards intended for such transfers.',
+          'Request notifications are stored in Telegram, on its servers outside Montenegro, and are subject to that service’s rules.',
         ],
       },
       {

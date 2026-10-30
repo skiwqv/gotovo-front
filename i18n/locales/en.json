@@ -145,7 +145,7 @@
     "name": "Name",
     "namePlaceholder": "How should we address you",
     "contact": "Viber, WhatsApp or Telegram",
-    "contactPlaceholder": "+382 …",
+    "contactPlaceholder": "+382 67 123 456 or {'@'}username",
     "apartments": "Number of apartments",
     "city": "City",
     "cities": {
@@ -163,7 +163,7 @@
     "successText": "I'll get in touch within a day using the contact you left.",
     "errors": {
       "name": "Tell us how to address you",
-      "contact": "Enter a phone or Telegram username",
+      "contact": "A phone (+382…) or a Telegram {'@'}username",
       "apartments": "Choose the number of apartments",
       "city": "Choose a city",
       "submit": "Couldn't send. Please try again.",
@@ -179,7 +179,7 @@
   "legal": {
     "eyebrow": "Documents",
     "back": "Back to home",
-    "updated": "Updated 28 October 2026",
+    "updated": "Updated 30 October 2026",
     "other": "Other documents",
     "missingName": "add the site owner",
     "missingEmail": "add an email"

@@ -4,6 +4,24 @@ export const cities = ['budva', 'kotor', 'tivat', 'bar', 'herceg-novi', 'podgori
 export type ApartmentRange = (typeof apartmentRanges)[number]
 export type City = (typeof cities)[number]
 
+const phonePattern = /^\+?[\d\s().-]+$/
+const telegramPattern = /^@[a-z][a-z\d_]{4,31}$/i
+
+export function normalizeContact(value: string): string {
+  return value
+    .trim()
+    .replace(/\s+/g, ' ')
+    .replace(/^(?:https?:\/\/)?t\.me\/([a-z\d_]+)\/?$/i, '@$1')
+}
+
+export function isValidContact(value: string): boolean {
+  const contact = normalizeContact(value)
+  if (telegramPattern.test(contact)) return true
+  if (!phonePattern.test(contact)) return false
+  const digits = contact.replace(/\D/g, '').length
+  return digits >= 8 && digits <= 15
+}
+
 export interface PilotRequest {
   name: string
   contact: string
