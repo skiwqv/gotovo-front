@@ -145,7 +145,7 @@
     "name": "Ime",
     "namePlaceholder": "Kako da vam se obraćamo",
     "contact": "Viber, WhatsApp ili Telegram",
-    "contactPlaceholder": "+382 …",
+    "contactPlaceholder": "+382 67 123 456 ili {'@'}korisnik",
     "apartments": "Koliko stanova",
     "city": "Grad",
     "cities": {
@@ -163,11 +163,11 @@
     "successText": "Javiću vam se u toku dana na kontakt koji ste ostavili.",
     "errors": {
       "name": "Upišite kako da vam se obraćamo",
-      "contact": "Upišite telefon ili Telegram nalog",
+      "contact": "Telefon (+382…) ili {'@'}korisnik u Telegramu",
       "apartments": "Izaberite broj stanova",
       "city": "Izaberite grad",
       "submit": "Slanje nije uspjelo. Pokušajte ponovo.",
-      "consent": "Potrebna je vaša saglasnost za obradu podataka"
+      "consent": "Potrebna je saglasnost za obradu podataka"
     },
     "consent": "Dajem saglasnost za obradu mojih podataka radi kontakta o pilotu, u skladu sa {policy}.",
     "consentPolicy": "Politikom privatnosti"
@@ -179,7 +179,7 @@
   "legal": {
     "eyebrow": "Dokumenti",
     "back": "Na početnu",
-    "updated": "Ažurirano 28. oktobra 2026.",
+    "updated": "Ažurirano 30. oktobra 2026.",
     "other": "Ostali dokumenti",
     "missingName": "upisati vlasnika sajta",
     "missingEmail": "upisati email"

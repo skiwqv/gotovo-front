@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { apartmentRanges, cities, sendPilotRequest, type ApartmentRange, type City } from '~/utils/pilotRequest'
+import { apartmentRanges, cities, isValidContact, normalizeContact, sendPilotRequest, type ApartmentRange, type City } from '~/utils/pilotRequest'
 
 type Field = 'name' | 'contact' | 'apartments' | 'city' | 'consent'
 
@@ -33,9 +33,7 @@ const fieldRefs: Record<Field, Ref<{ focus: () => void } | undefined>> = {
 const errors = computed(() => {
   const result: Partial<Record<Field, string>> = {}
   if (form.name.trim().length < 2) result.name = 'pilot.errors.name'
-  const contact = form.contact.trim()
-  const digits = contact.replace(/\D/g, '').length
-  if (digits < 6 && !/^@?[\p{L}\d_.]{3,}$/u.test(contact)) result.contact = 'pilot.errors.contact'
+  if (!isValidContact(form.contact)) result.contact = 'pilot.errors.contact'
   if (!form.apartments) result.apartments = 'pilot.errors.apartments'
   if (!form.city) result.city = 'pilot.errors.city'
   if (!form.consent) result.consent = 'pilot.errors.consent'
@@ -64,7 +62,7 @@ async function onSubmit() {
   try {
     await sendPilotRequest(config.public, {
       name: form.name.trim(),
-      contact: form.contact.trim(),
+      contact: normalizeContact(form.contact),
       apartments: form.apartments as ApartmentRange,
       city: form.city as City,
       locale: locale.value,
